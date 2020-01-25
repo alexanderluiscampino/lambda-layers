@@ -1,5 +1,5 @@
 import os
-
+import pyodbc
 
 class RDS(object):
     username = os.getenv('USERNAME')
