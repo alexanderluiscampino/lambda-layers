@@ -31,4 +31,4 @@ class RDS(object):
 rds = RDS(database)
 connexion = pyodbc.connect(rds.connection)
 
-# Proceed to use connexion to run a query agaisnt the database
+# Proceed to use connexion to run a query against the database
